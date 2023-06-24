@@ -1,0 +1,54 @@
+* {
+    user-select: none;
+}
+
+
+.container {
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 270px;
+    top: 200px;
+}
+
+#output {
+    position: absolute;
+    left: 250px;
+    top: 140px;
+    font-size: 50px;
+    color: lightblue;
+}
+
+#number{
+    position: absolute;
+    left: 440px;
+    top: 100px;
+}
+
+.choice1 {
+    position: absolute;
+    left: 300px;
+    top: 160px;
+    
+}
+
+
+.choice2 {
+    position: absolute;
+    left: 640px;
+    top: 160px;
+}
+
+#submit {
+    position: absolute;
+    
+    left: 614px;
+    top: 100px;
+
+    margin: 0;
+    padding: 2.1px;
+    border-radius: 2px;
+    border: solid 1px black;
+}
+
