@@ -7,37 +7,24 @@
 </head>
 <body>
 
-    <input type="number" name="" id="choose" required>
-    <button type="submit" onclick="run()">Submit</button>
+    
+    <button type="submit" onclick="hasher()">Hasher with options</button>
+    <button type="submit" onclick="deHasher()">de-hasher</button>
+    
     <script>
 
 
-        function run() {
+        function hasher() {
 
-            var choose = document.getElementById("choose");
-
-            if (choose.value == 1) {
-                open("hasher with options/index.html", "_self");
-            } 
+            open("hasher with options/index.html", "_self");
             
-            if (choose.value == 2) {
-                open("de-hasher/index.html", "_self");
-            }
+        }
+
+
+        function deHasher() {
+
+            open("de-hasher/index.html", "_self");
             
-            else {
-
-                alert("not allowed");
-
-            }
-
-
-           
-            
-            
-
-          
-
-
         }
         
 
