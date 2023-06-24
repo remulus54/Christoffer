@@ -6,8 +6,34 @@
     <title>redirect</title>
 </head>
 <body>
+
+    <input type="number" name="" id="choose" required>
+    <button type="submit" onclick="run()">Submit</button>
     <script>
-        open("hasher with options/index.html", "_self");
+
+
+        function run() {
+
+            var choose = document.getElementById("choose");
+
+            if (choose.value == 1) {
+                open("hasher with options/index.html", "_self");
+            }
+
+
+            /*
+            
+            if (choose.value == ?) {
+                open("hasher with options/index.html", "_self");
+            }
+
+            */
+
+
+        }
+        
+
+        
     </script>
 </body>
 </html>
