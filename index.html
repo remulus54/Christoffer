@@ -4,67 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>redirect</title>
-</head>
-<body>
-
-    <div class="one">
-    
-        <button type="submit" onclick="hasher()">Hasher with options</button>
-        <button type="submit" onclick="deHasher()">de-hasher</button>
-        <button type="submit" onclick="valutaConv()">Valuta Converter</button>
-        <button type="submit" onclick="unitConv()">Mass Unit Converter</button>
-    
-
-    </div>
-
-    
-    <script>
-
-
-        function hasher() {
-
-            open("hasher with options/index.html", "_self");
-            
-        }
-
-
-        function deHasher() {
-
-            open("de-hasher/index.html", "_self");
-            
-        }
-
-        function valutaConv() {
-
-            open("valuta converter/convert.html", "_self");
-            
-        }
-
-
-        function unitConv() {
-
-            open("mass unit converter/convert.html", "_self");
-            
-        }
-        
-
-        
-    </script>
-
-
-
     <style>
-
         body {
             background-color: #00ffff;
         }
 
-        .one{
-            
+        .one {
             background-color: #ffff;
-        
-        </style>
-
         }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <button type="submit" onclick="hasher()" class="1">Hasher with options</button>
+        <button type="submit" onclick="deHasher()" class="1">de-hasher</button>
+        <button type="submit" onclick="valutaConv()" class="1">Valuta Converter</button>
+        <button type="submit" onclick="unitConv()" class="1">Mass Unit Converter</button>
+    </div>
+
+    <script>
+        function hasher() {
+            open("hasher with options/index.html", "_self");
+        }
+
+        function deHasher() {
+            open("de-hasher/index.html", "_self");
+        }
+
+        function valutaConv() {
+            open("valuta converter/convert.html", "_self");
+        }
+
+        function unitConv() {
+            open("mass unit converter/convert.html", "_self");
+        }
+    </script>
 </body>
 </html>
