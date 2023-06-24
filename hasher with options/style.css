@@ -1,0 +1,76 @@
+
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5f7;
+    background-image: url("hamp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 500px;
+ 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  .inputs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #444cf7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3039c9;
+  }
+  
+  .choose {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .alert {
+    background-color: #ffcccc;
+    padding: 10px;
+    color: #cc0000;
+    margin-bottom: 10px;
+  }
+  
+  .success {
+    background-color: #ccffcc;
+    padding: 10px;
+    color: #006600;
+    margin-bottom: 10px;
+  }
+
+
+
+  
+  
+  
