@@ -40,20 +40,20 @@ function convertCurrency() {
 
 
   if (fromCurrency === "DKK" && toCurrency === "euro") {
-    converted = inputValue * 7.45;
+    converted = inputValue / 7.46;
     
   }
 
 
   if (fromCurrency === "DKK" && toCurrency === "dollars") {
-    converted = inputValue * 6.80;
+    converted = inputValue / 6.84;
     
   }
   
 
 
   if (fromCurrency === "euro" && toCurrency === "DKK") {
-    converted = inputValue / 7.45;
+    converted = inputValue * 7.46;
    
   }
 
@@ -66,14 +66,14 @@ function convertCurrency() {
 
 
   if (fromCurrency === "euro" && toCurrency === "dollars") {
-    converted = inputValue * 1.1;
+    converted = inputValue * 1.09;
     
   }
 
 
 
   if (fromCurrency === "dollars" && toCurrency === "DKK") {
-    converted = inputValue / 6.8;
+    converted = inputValue * 6.84;
     
   }
 
@@ -86,7 +86,7 @@ function convertCurrency() {
 
 
   if (fromCurrency === "dollars" && toCurrency === "euro") {
-    converted = inputValue * 0.91;
+    converted = inputValue * 0.92;
     
 
 
